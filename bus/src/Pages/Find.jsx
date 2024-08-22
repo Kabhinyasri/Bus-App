@@ -18,8 +18,10 @@ const Find = () => {
     navigate('/schedule');
   };
 
+
   return (
     <div className="full">
+      <button className="log-button" onClick={ () => navigate('/login')}>Login</button>
       <div className="main">
         <h1>Find Schedule</h1>
         <form onSubmit={handleSearch}>

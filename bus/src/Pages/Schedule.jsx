@@ -9,9 +9,6 @@ const Schedule = () => {
     alert(`Reserved seat for bus ID: ${busId}`);
   };
 
-  const handleBack = () => {
-    navigate(-1); // Navigate to the previous page
-  };
 
   const schedules = [
     {
@@ -45,7 +42,7 @@ const Schedule = () => {
 
   return (
     <div className="schedule-container">
-      <button className="back-button" onClick={handleBack}>Back</button>
+      <button className="back-button" onClick={() => navigate(-1)}>Back</button>
       <h1>Bus Schedules</h1>
       <table className="schedule-table">
         <thead>

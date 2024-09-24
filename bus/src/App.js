@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
-import Find from './Pages/Find';
-import Schedule from './Pages/Schedule';
-import Header from './Pages/Header';
-import Login from './Pages/Login';
-import Manage from './Pages/Manage';
+import Find from './component/Find';
+import Schedule from './component/Schedule';
+import Header from './component/Header';
+import Login from './component/Login';
+import Manage from './component/Manage';
 
 const App = () => {
   return (
